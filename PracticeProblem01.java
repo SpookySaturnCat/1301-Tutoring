@@ -25,7 +25,7 @@ public class PracticeProblem01 {
 				}
 				
 				// Checks if number is greater than or equal to 50
-				if (numberToCheck <= 50) {
+				if (numberToCheck >= 50) {
 					// Increase by 1
 					over50Count++;
 				}
@@ -35,6 +35,6 @@ public class PracticeProblem01 {
 			totalCount++;
 		} while (numberToCheck != -365);
 		
-		System.out.printf("Even: %d\n50 or greater: %d\nValid entries: %d\nTotal entries: %d", evenCount, over50Count, validCount, totalCount);
+		System.out.printf("\nEven: %d\n50 or greater: %d\nValid entries: %d\nTotal entries: %d", evenCount, over50Count, validCount, totalCount - 1);
 	}
 }

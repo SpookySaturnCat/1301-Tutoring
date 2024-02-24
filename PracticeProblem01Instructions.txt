@@ -1,0 +1,22 @@
+Create a class called LoopsAndConditionsPractice01
+
+In your main method ask the user to input integer values within the
+range of 1 - 100 until the number '-365' is entered. Then display 
+how many entries were even even, greater than or less than 50,
+were within the required range, and the total number of entries
+(not including the sentinel entry). 
+
+Expected output: 
+
+Please enter an integer 1 - 100 (-365 to stop): 65
+Please enter an integer 1 - 100 (-365 to stop): 22
+Please enter an integer 1 - 100 (-365 to stop): 96
+Please enter an integer 1 - 100 (-365 to stop): 8123
+Please enter an integer 1 - 100 (-365 to stop): 48
+Please enter an integer 1 - 100 (-365 to stop): 73
+Please enter an integer 1 - 100 (-365 to stop): -365
+
+Even: 3
+50 or greater: 3
+Valid entries: 5
+Total entries: 6
